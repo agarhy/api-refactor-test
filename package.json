@@ -1,0 +1,20 @@
+{
+  "name": "api-refactor",
+  "version": "1.0.0",
+  "description": "api refactor test",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Ahmed Garhy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0"
+  }
+}
